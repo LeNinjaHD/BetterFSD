@@ -448,7 +448,7 @@ void cluser::doparse(char *s)
       case CL_ACHANDOFF  : execmulticast(array,count,index,1,0); break;
       case CL_SB         :
       case CL_PC         : execmulticast(array,count,index,0,0); break;
-      case CL_WEATHER    : execweather(array, count); break;
+      //case CL_WEATHER    : execweather(array, count); break;
       case CL_REQCOM     : execmulticast(array,count,index,0,0); break;
       case CL_REPCOM     : execmulticast(array,count,index,1,0); break;
       case CL_REQACARS   : execacars(array, count); break;
